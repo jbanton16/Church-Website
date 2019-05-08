@@ -1,0 +1,256 @@
+body{ 
+	margin: 0;
+	padding: 0;
+}
+
+/*CSS for navigtion bar*/
+.navbar{
+	color: white;
+	background-color: #0B5345;
+}
+
+.navbar-brand{
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 2px;
+}
+
+/*Sections*/
+#home{
+	width: 100%;
+}
+
+/*CSS for title*/
+.title{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	padding: 0;
+	text-align: center;
+}
+
+.title h1{
+	margin:0;
+	padding:0;
+	font-family: 'Anton', sans-serif;
+	font-size: 50px;
+	color: #0B5345;
+	letter-spacing: 15px;
+}
+
+.title h2{
+	margin:0;
+	padding:0;
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	font-style: italic;
+	color: #0B5345;
+	letter-spacing: 6px;
+}
+
+/*CSS for home-content div*/
+.home-content{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+/*CSS for picture slide*/
+#carouselExampleIndicators{
+	padding:0;
+}
+
+.carousel{
+	margin: 0;
+	padding: 0;
+}
+
+.carousel-item img{
+	height: 440px;
+}
+
+/*CSS for Jumbotron*/
+.info{
+	margin: 0;
+	padding: 0;
+	height: 440px;
+	background-color: #0B5345;
+}
+
+.info h1{
+	margin:20px 10px;
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;
+	color:white;
+	letter-spacing: 6px;
+}
+
+.info h2{
+	margin:50px 10px;
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.info p{
+	margin:20px 10px;
+	font-weight: bold;
+	color: white;
+}
+
+.btn{
+	margin: 10px;
+}
+
+/*CSS for About Us*/
+.about{
+	margin: 0px;
+	padding:0px;
+	display: flex;	
+	flex-wrap: 	wrap;
+}
+
+.church-about{
+	margin-top: 60px;
+	margin-bottom:0px;
+	padding:5px;
+	font-family: 'Anton', sans-serif;
+	color:white;
+	text-align: center;
+	letter-spacing: 25px;
+	background-color: #0B5345;
+}
+
+.about-left{
+	width:25%;
+	background-color: #45B39D;	
+}
+
+.about-left h1{
+	margin: 10px 30px;
+	font-family: 'Anton', sans-serif;
+	color: #0B5345;
+	letter-spacing: 3px;
+}
+
+.about-left p{
+	margin: 30px 30px;
+	font-family: times new roman;
+	font-size: 20px;
+	color:white;
+	letter-spacing: 1px;
+}
+
+.about-left img{
+	width:100%;
+}
+
+.about-right{
+	width:75%;
+}
+
+.about-right h1{
+	margin: 0px 20px;
+	font-family: 'Anton', sans-serif;
+	font-size: 55px;
+	color: #0B5345;
+	letter-spacing: 10px;
+}
+
+.about-right h2{
+	margin: 0px 20px;
+	font-family: times new roman;
+	font-size: 20px;
+	color: #0B5345;
+	font-style: italic;
+	font-weight: bold;	
+	letter-spacing: 5px;
+}
+
+.about-right-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about-right-right{
+	padding: 20px 20px;
+	width: 50%;
+	font-family: times new roman;
+	font-size: 21px;
+	letter-spacing: 2px;
+}
+
+.about-right-left{
+	padding: 20px 20px;
+	width: 50%;
+	font-family: times new roman;
+	font-size: 29px;
+	letter-spacing: 1px;
+}
+
+/*features card*/
+.church-activity{
+	margin-top: 30px;
+	margin-bottom: 0px;
+	padding:5px;
+	font-family: 'Anton', sans-serif;
+	color:white;
+	text-align: center;
+	letter-spacing: 25px;
+	background-color: #0B5345;
+}
+
+.card{
+	margin-top: 20px;
+	height: 480px;
+}
+
+.card-text{
+	height: 130px;
+}
+
+.card img{
+	height:200px;
+}
+
+footer{
+	margin:25px 0px;
+	padding: 30px 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #0B5345;
+	color:white;
+}
+
+.about-footer{
+	margin:20px 10px;
+}
+
+.about-footer h1{
+	font-size: 15px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.about-footer p{
+	font-size: 15px;
+}
+
+.prayer{
+	margin:20px 10px;
+}
+
+.prayer h1{
+	font-size: 15px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.add-footer{
+	margin:20px 10px;
+}
+
+.add-footer h1{
+	font-size: 15px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
